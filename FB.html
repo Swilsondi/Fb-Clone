@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA -Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="basicsstyles.css">
+<title>Website Basics- Social Book</title>
+<script src="https://kit.fontawesome.com/8b4f4bb65f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="C:\Users\swils\OneDrive\Pictures\images\logo2.png" class="logo">
+            <ul>
+                <li><img src="C:\Users\swils\OneDrive\Pictures\images\notification.png"></li>
+                <li><img src="C:\Users\swils\OneDrive\Pictures\images\inbox.png"></li>
+                <li><img src="C:\Users\swils\OneDrive\Pictures\images\video.png"></li>
+            </ul>
+            </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="C:\Users\swils\OneDrive\Pictures\images\search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="C:\Users\swils\OneDrive\Pictures\images\profile-pic.png">
+            </div>
+
+
+            <div class="settings-menu">
+
+                <div id="dark-btn" class="dark-btn-on">
+                   <span></span>
+                </div>
+
+                <div class="settings-menu-inner">
+
+                    <div class="user-profile">
+                        <img src="C:\Users\swils\OneDrive\Pictures\images\profile-pic.png">
+                        <div>
+                            <p>John Nicholas</p>
+                            <a href="#">See Your Profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user-profile">
+                        <img src="C:\Users\swils\OneDrive\Pictures\images\feedback.png">
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="#">Help us to improve the new design</a>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="setting-links">
+                        <img src="C:\Users\swils\OneDrive\Pictures\images\setting.png" class="settings-icon">
+                        <a href="#">Settings & Privacy <img src="C:\Users\swils\OneDrive\Pictures\images\arrow.png" width="10px"></a>
+                    </div>
+
+                    <div class="setting-links">
+                        <img src="C:\Users\swils\OneDrive\Pictures\images\help.png" class="settings-icon">
+                        <a href="#">Help & Support <img src="C:\Users\swils\OneDrive\Pictures\images\arrow.png"  width="10px"></a>
+                    </div>
+
+                    <div class="setting-links">
+                        <img src="C:\Users\swils\OneDrive\Pictures\images\display.png"class="settings-icon">
+                        <a href="#">Display & Accessibility <img src="C:\Users\swils\OneDrive\Pictures\images\arrow.png" width="10px"></a>
+                    </div>
+
+                    <div class="setting-links">
+                        <img src="C:\Users\swils\OneDrive\Pictures\images\logout.png"class="settings-icon">
+                        <a href="#">Logout<img src="C:\Users\swils\OneDrive\Pictures\images\arrow.png" width="10px"></a>
+                    </div>
+
+
+                </div>
+ 
+
+            </div>
+
+        
+        </nav>
+        <div class="container">
+        
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="C:\Users\swils\OneDrive\Pictures\images\news.png"> Latest News</a>
+                <a href="#"><img src="C:\Users\swils\OneDrive\Pictures\images\friends.png"> Friends</a>
+                <a href="#"><img src="C:\Users\swils\OneDrive\Pictures\images\group.png"> Group</a>
+                <a href="#"><img src="C:\Users\swils\OneDrive\Pictures\images\marketplace.png"> Marketplace</a>
+                <a href="#"><img src="C:\Users\swils\OneDrive\Pictures\images\watch.png"> Watch</a>
+                <a href="#"></a>See More</a>
+            
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="C:\Users\swils\OneDrive\Pictures\images\shortcut-1.png"> Web Developers</a>
+                <a href="#"><img src="C:\Users\swils\OneDrive\Pictures\images\shortcut-2.png"> Web Design Course</a>
+                <a href="#"><img src="C:\Users\swils\OneDrive\Pictures\images\shortcut-3.png"> Full Stack</a>
+                <a href="#"><img src="C:\Users\swils\OneDrive\Pictures\images\shortcut-4.png"> Website Experts</a>
+            </div>
+            </div>
+        
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                
+                <img src="C:\Users\swils\OneDrive\Pictures\images\upload.png">
+                <p>Post Story</p>
+            </div>
+            <div class="story story2">
+                
+                <img src="C:\Users\swils\OneDrive\Pictures\images\member-1.png">
+                <p>Alison</p>
+            </div>
+            <div class="story story3">
+                
+                <img src="C:\Users\swils\OneDrive\Pictures\images\member-2.png">
+                <p>Jackson</p>
+            </div>
+            <div class="story story4">
+                
+                <img src="C:\Users\swils\OneDrive\Pictures\images\member-3.png">
+                <p>Samona</p>
+            </div>
+            <div class="story story5">
+                
+                <img src="C:\Users\swils\OneDrive\Pictures\images\member-4.png">
+                <p>John Doe</p>
+            </div>
+            </div>
+
+            <div class="write-post-container">
+                
+                <div class="user-profile">
+                    <img src="C:\Users\swils\OneDrive\Pictures\images\profile-pic.png">
+                    <div>
+                        <p>John Nicholas</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, John?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="C:\Users\swils\OneDrive\Pictures\images\live-video.png">Live Video</a>
+                        <a href="#"><img src="C:\Users\swils\OneDrive\Pictures\images\photo.png">Photo Video</a>
+                        <a href="#"><img src="C:\Users\swils\OneDrive\Pictures\images\feeling.png">Feeling Activity</a>
+                    </div>
+
+                </div>
+
+            
+            </div>
+            
+
+
+<div class="post-container">
+    <div class="post-row">
+        <div class="user-profile">
+            <img src="C:\Users\swils\OneDrive\Pictures\images\profile-pic.png">
+            <div>
+                <p>John Nicholas</p>
+                <span>June 24 2021, 3:40 pm</span>
+            </div>
+        </div>
+        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+    </div>
+                <p class="post-text">Watch me on <span>Youtube</span>, Live at 7PM. <a href="#">#Youtube</a><a href="#"> #Twitch</a></p>
+                <img src="C:\Users\swils\OneDrive\Pictures\images\feed-image-1.png" class="post-img">
+                
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="C:\Users\swils\OneDrive\Pictures\images\like-blue.png"> 120</div>
+                        <div><img src="C:\Users\swils\OneDrive\Pictures\images\comments.png"> 45</div>
+                        <div><img src="C:\Users\swils\OneDrive\Pictures\images\share.png"> 20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                            <img src="C:\Users\swils\OneDrive\Pictures\images\profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    </div>
+                    
+    </div>
+
+
+    
+<div class="post-container">
+    <div class="post-row">
+        <div class="user-profile">
+            <img src="C:\Users\swils\OneDrive\Pictures\images\profile-pic.png">
+            <div>
+                <p>John Nicholas</p>
+                <span>June 24 2021, 3:40 pm</span>
+            </div>
+        </div>
+        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+    </div>
+                <p class="post-text">Like and share for awesome events coming up <span>Twitch</span>, Live at 10PM. <a href="#">#Instagram</a><a href="#"> #Twitch</a></p>
+                <img src="C:\Users\swils\OneDrive\Pictures\images\feed-image-2.png" class="post-img">
+                
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="C:\Users\swils\OneDrive\Pictures\images\like-blue.png"> 300</div>
+                        <div><img src="C:\Users\swils\OneDrive\Pictures\images\comments.png"> 210</div>
+                        <div><img src="C:\Users\swils\OneDrive\Pictures\images\share.png"> 94</div>
+                    </div>
+                    <div class="post-profile-icon">
+                            <img src="C:\Users\swils\OneDrive\Pictures\images\profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    </div>
+                    
+    </div>
+    
+<div class="post-container">
+    <div class="post-row">
+        <div class="user-profile">
+            <img src="C:\Users\swils\OneDrive\Pictures\images\profile-pic.png">
+            <div>
+                <p>John Nicholas</p>
+                <span>June 24 2021, 3:40 pm</span>
+            </div>
+        </div>
+        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+    </div>
+                <p class="post-text">Come hang out at <span>Social Club</span>, Happy Hour at 7. <a href="#">#DC</a><a href="#">#Nightlife</a></p>
+                <img src="C:\Users\swils\OneDrive\Pictures\images\feed-image-3.png" class="post-img">
+                
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="C:\Users\swils\OneDrive\Pictures\images\like-blue.png"> 9000</div>
+                        <div><img src="C:\Users\swils\OneDrive\Pictures\images\comments.png"> 599</div>
+                        <div><img src="C:\Users\swils\OneDrive\Pictures\images\share.png"> 200</div>
+                    </div>
+                    <div class="post-profile-icon">
+                            <img src="C:\Users\swils\OneDrive\Pictures\images\profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    </div>
+                    
+    </div>
+
+    
+<div class="post-container">
+    <div class="post-row">
+        <div class="user-profile">
+            <img src="C:\Users\swils\OneDrive\Pictures\images\profile-pic.png">
+            <div>
+                <p>John Nicholas</p>
+                <span>June 24 2021, 3:40 pm</span>
+            </div>
+        </div>
+        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+    </div>
+                <p class="post-text">Work day life. Love to get up in the comfort of my own home and work.  <span>Workers Rights</span>. <a href="#">#RemoteWork</a><a href="#"> #Work/Life</a></p>
+                <img src="C:\Users\swils\OneDrive\Pictures\images\feed-image-4.png" class="post-img">
+                
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="C:\Users\swils\OneDrive\Pictures\images\like-blue.png"> 200k</div>
+                        <div><img src="C:\Users\swils\OneDrive\Pictures\images\comments.png"> 5000</div>
+                        <div><img src="C:\Users\swils\OneDrive\Pictures\images\share.png"> 622</div>
+                    </div>
+                    <div class="post-profile-icon">
+                            <img src="C:\Users\swils\OneDrive\Pictures\images\profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    </div>
+                    
+    </div>
+
+    
+<div class="post-container">
+    <div class="post-row">
+        <div class="user-profile">
+            <img src="C:\Users\swils\OneDrive\Pictures\images\profile-pic.png">
+            <div>
+                <p>John Nicholas</p>
+                <span>June 24 2021, 3:40 pm</span>
+            </div>
+        </div>
+        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+    </div>
+                <p class="post-text"Meetings are a way to connect and express yourself.<span>Dont be shy your opinion matters.</span> <a href="#">#Meetings</a><a href="#"> #SocialKnowledge</a></p>
+                <img src="C:\Users\swils\OneDrive\Pictures\images\feed-image-5.png" class="post-img">
+                
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="C:\Users\swils\OneDrive\Pictures\images\like-blue.png"> 9878</div>
+                        <div><img src="C:\Users\swils\OneDrive\Pictures\images\comments.png"> 366</div>
+                        <div><img src="C:\Users\swils\OneDrive\Pictures\images\share.png"> 180</div>
+                    </div>
+                    <div class="post-profile-icon">
+                            <img src="C:\Users\swils\OneDrive\Pictures\images\profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    </div>
+                    
+    </div>
+            <button type="button" class="load-more-btn">Load More</button>
+
+        </div>
+    
+        <div class="right-sidebar">
+    
+        <div class="sidebar-title">
+            <h4>Events</h4>
+            <a href="#">See All</a>
+        </div>
+
+        <div class="event">
+            <div class="left-event">
+            <h3>18</h3>
+            <span>March</span>
+                </div>
+       
+            <div class="right-event">
+            <h4>Social Media</h4>
+            <p><i class="fa-solid fa-location-crosshairs"></i>Willson Tech Park</p>
+            <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                <h3>22</h3>
+                <span>June</span>
+                    </div>
+           
+                <div class="right-event">
+                <h4>Mobile Marketing</h4>
+                <p><i class="fa-solid fa-location-crosshairs"></i>Willson Tech Park</p>
+                <a href="#">More Info</a>
+                    </div>
+                </div>
+                
+        <div class="sidebar-title">
+            <h4>Advertisements</h4>
+            <a href="#">Close</a>
+        </div>
+        <img src="C:\Users\swils\OneDrive\Pictures\images\advertisement.png" class="sidebar-ads">
+
+        <div class="sidebar-title">
+            <h4>Conversation</h4>
+            <a href="#">Hide Chat</a>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="C:\Users\swils\OneDrive\Pictures\images\member-1.png">
+            </div>
+            <p>Alison Mina</p>
+        </div>
+
+        <div class="online-list">
+            <div class="online">
+                <img src="C:\Users\swils\OneDrive\Pictures\images\member-2.png">
+            </div>
+            <p>Jackson Aston</p>
+        </div>
+
+        <div class="online-list">
+            <div class="online">
+                <img src="C:\Users\swils\OneDrive\Pictures\images\member-3.png">
+            </div>
+            <p>Samona Rose</p>
+        </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2024 - Spencer's FB Clone</p>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
